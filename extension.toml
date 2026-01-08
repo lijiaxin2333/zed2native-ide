@@ -1,0 +1,12 @@
+id = "jump-to-native-ide"
+name = "Jump to Native IDE"
+version = "0.0.1"
+schema_version = 1
+authors = ["jasonli <jason@example.com>"]
+description = "Jump to Xcode (xed) or Android Studio (studio) at the current file and line."
+repository = "https://github.com/lijiaxin2333/zed2native-ide"
+
+[slash_commands]
+jump_to_xcode = "Jump to Xcode"
+jump_to_android_studio = "Jump to Android Studio"
+auto_jump = "Auto Jump to Native IDE"
